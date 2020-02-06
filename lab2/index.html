@@ -9,14 +9,25 @@
 
 <body>
     <header>
+        <form>
         <h1>Artist Directory</h1>
-        <input type="text" name="Search" />
+        <div class="input-line">
+            <input id = "search" type="text" name="Search" />
+            <button id = "addArtistBtn" type="button">Add Artist</button>
+        </div>
+        </form>
     </header>
     <main>
+        <form id = "artistForm">
+            <input id = "artistName" type = "text" class ="inputForm"/>
+            <input id = "aboutArtist" type = "text" class ="inputForm"/>
+            <input id = "artistImg" type = "text" class ="inputForm"/>
+            <button id = "addButton" type="button">Add</button>
+        </form>
         <ul class="unorderlist">
             <li class="list">
                 <img class="image" src="https://randomuser.me/portraits/med/women/3.jpg" />
-                <div>
+                <div class = "divider"> 
                     <h2 class="name">Taylor Swift</h2>
                     <p class="text">An American singer-songwriter</p>
                 </div>
@@ -52,5 +63,5 @@
         </ul>
     </main>
 </body>
-
+<script type="text/javascript" src="lab2.js"></script>
 </html>
