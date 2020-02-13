@@ -36,9 +36,12 @@ input {
 
 .input-line input {
   flex-grow: 1;
-  margin-right: 5px;
 }
 
+.input-line button{
+  margin-left:5px;
+  width:80px;
+}
 input:focus {
   border: 1px groove black;
   padding: 15px;
@@ -102,6 +105,12 @@ li.list:hover {
   padding:10px;
   font-size: 1.5em;
 }
-.hide{
+.deleteButton {
+  border: none;
+  border-radius:5px;
+  color:white;
+  padding: 15px;
+}
+.hider{
   display:none !important;
 }
